@@ -18,6 +18,7 @@ class SongList extends Component{
 					<div className="content">
 						{song.title}
 					</div>
+
 				</div>
 			);
 		})
@@ -37,7 +38,6 @@ class SongList extends Component{
 }
 
 const mapsStateToProps=(state)=>{
-	console.log(state);
 
 	return {
 		songs: state.songs
